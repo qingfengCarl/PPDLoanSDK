@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "PPDLoanSDK"
-  s.version      = "1.3"
+  s.version      = "1.5"
   s.summary      = "PPD_LoansSDK is a *****"
 
   s.description = "PPD_LoansSDK is a PPD_LoansSDKvvv PPD_LoansSDK PPD_LoansSDK PPD_LoansSDK****"
@@ -26,7 +26,8 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Classes/*'
   s.ios.vendored_libraries   = 'Classes/libLoansSDK.a'
-  s.resources = 'Classes/PPDLoan.bundle/*'
+
+  s.resources = 'Classes/PPDLoan.bundle'
 
    s.public_header_files = 'Classes/*.h'
 
