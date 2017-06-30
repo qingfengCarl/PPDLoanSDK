@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "PPDLoanSDK"
-  s.version      = "1.1"
+  s.version      = "1.2"
   s.summary      = "PPD_LoansSDK is a *****"
 
   s.description = "PPD_LoansSDK is a PPD_LoansSDKvvv PPD_LoansSDK PPD_LoansSDK PPD_LoansSDK****"
