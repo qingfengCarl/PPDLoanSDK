@@ -4,10 +4,10 @@ Pod::Spec.new do |s|
 
 
   s.name         = "PPDLoanSDK"
-  s.version      = "1.5"
-  s.summary      = "PPD_LoansSDK is a *****"
+  s.version      = "1.6"
+  s.summary      = "PPDLoanSDK is a *****"
 
-  s.description = "PPD_LoansSDK is a PPD_LoansSDKvvv PPD_LoansSDK PPD_LoansSDK PPD_LoansSDK****"
+  s.description = "PPDLoanSDK is a PPDLoanSDKvvv PPDLoanSDK PPDLoanSDK PPDLoanSDK****"
 
 
   s.homepage     = "https://github.com/qingfengCarl/PPDLoanSDK"
@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
 
    s.frameworks = 'UIKit', 'MapKit','AVFoundation','JavaScriptCore','ImageIO','StoreKit','AdSupport','AudioToolbox','CoreData','CFNetwork','AddressBookUI','CoreTelephony','CoreGraphics','MessageUI','Security','MobileCoreServices','SystemConfiguration','CoreLocation','Foundation','QuartzCore'
 
-
+  s.libraries = 'iconv', 'stdc++', 'z', 'sqlite3'
 
 
 end
