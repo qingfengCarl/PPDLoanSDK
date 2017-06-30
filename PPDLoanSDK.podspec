@@ -26,9 +26,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Classes/*'
   s.ios.vendored_libraries   = 'Classes/libLoansSDK.a'
-  s.resource_bundles = {
-     'PPDLoanSDK' => ['Classes/*']
-  }
+  s.resources = 'Classes/**/*'
 
    s.public_header_files = 'Classes/*.h'
 
