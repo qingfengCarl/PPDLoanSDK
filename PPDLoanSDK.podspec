@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
 
 
   s.source_files = 'Classes/*'
-  s.ios.vendored_libraries   = 'Classes/libLoanSDK.a'
+  s.ios.vendored_libraries   = 'Classes/libLoansSDK.a'
   s.resource_bundles = {
      'PPDLoanSDK' => ['Classes/*']
   }
